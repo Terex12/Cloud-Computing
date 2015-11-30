@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>FootTrack</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  <servlet>
+      <servlet-name>CreateFile</servlet-name>
+      <servlet-class>servlet.CreateFile</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>CreateFile</servlet-name>
+      <url-pattern>/CreateFile</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+      <servlet-name>CreateChart</servlet-name>
+      <servlet-class>servlet.CreateChart</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>CreateChart</servlet-name>
+      <url-pattern>/CreateChart</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+      <servlet-name>RecPlace</servlet-name>
+      <servlet-class>servlet.RecPlace</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>RecPlace</servlet-name>
+      <url-pattern>/RecPlace</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+      <servlet-name>RecFriend</servlet-name>
+      <servlet-class>servlet.RecFriend</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>RecFriend</servlet-name>
+      <url-pattern>/RecFriend</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+      <servlet-name>HotPlace</servlet-name>
+      <servlet-class>servlet.HotPlace</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>HotPlace</servlet-name>
+      <url-pattern>/HotPlace</url-pattern>
+  </servlet-mapping>
+  
+ <servlet>
+      <servlet-name>FriendIntimacy</servlet-name>
+      <servlet-class>servlet.FriendIntimacy</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>FriendIntimacy</servlet-name>
+      <url-pattern>/FriendIntimacy</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+      <servlet-name>Checkin</servlet-name>
+      <servlet-class>servlet.Checkin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>Checkin</servlet-name>
+      <url-pattern>/Checkin</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
